@@ -31,7 +31,7 @@ const HomePage: React.FC = () => {
   return (
     <div className={styles.container}>
       <h1>Task Management</h1>
-      <TaskForm task={editingTask} onSave={handleSave} />
+      <TaskForm task={editingTask!} onSave={handleSave} />
       <TaskList tasks={tasks} onDelete={handleDelete} onEdit={setEditingTask} />
     </div>
   );
