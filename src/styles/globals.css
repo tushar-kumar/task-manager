@@ -26,3 +26,20 @@
   align-items: center;
   justify-content: center;
 }
+
+.github-link {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.github-link svg {
+  margin-right: 5px;
+}
